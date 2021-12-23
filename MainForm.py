@@ -11,8 +11,8 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from KalkulatorBmr import *
 from KalkulatorBmr_prog import *
-# from KalkulatorBMI import*
-# from KalkulatorBMI_prog import*
+from KalkulatorBMI import*
+from KalkulatorBMI_prog import*
 
 class Ui_Form(object):
 
@@ -23,12 +23,12 @@ class Ui_Form(object):
         self.ui.signals()
         self.BMR.show()
     
-    # def bmi(self):
-    #     self.BMI = QtWidgets.QMainWindow()
-    #     self.uis = Ui_KalkulatorBMI()
-    #     self.uis.setupUi(self.BMI)
-    #     self.uis.signals()
-    #     self.BMI.show()
+    def bmi(self):
+        self.BMI = QtWidgets.QMainWindow()
+        self.uis = Ui_MainWindow()
+        self.uis.setupUi(self.BMI)
+        self.uis.signals()
+        self.BMI.show()
 
     def setupUi(self, Form):
         Form.setObjectName("Form")
@@ -55,7 +55,7 @@ class Ui_Form(object):
         font.setPointSize(8)
         self.push_bmi.setFont(font)
         self.push_bmi.setObjectName("push_bmi")
-    #     self.push_bmi.clicked.connect(self.bmi)
+        self.push_bmi.clicked.connect(self.bmi)
 
 
         self.retranslateUi(Form)
