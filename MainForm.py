@@ -76,3 +76,4 @@ if __name__ == "__main__":
     ui.setupUi(FormMainWindow)
     FormMainWindow.show()
     sys.exit(app.exec_())
+
