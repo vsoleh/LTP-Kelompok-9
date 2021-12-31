@@ -9,13 +9,12 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from KalkulatorBmr import *
-from KalkulatorBmr_prog import *
 from KalkulatorBMI import*
 from KalkulatorBMI_prog import*
+from KalkulatorBmr import*
+from KalkulatorBmr_prog import*
 
 class Ui_Form(object):
-
     def bmr(self):
         self.BMR = QtWidgets.QMainWindow()
         self.ui = Ui_KalkulatorBmr()
@@ -30,13 +29,14 @@ class Ui_Form(object):
         self.uis.signals()
         self.BMI.show()
 
+
     def setupUi(self, Form):
         Form.setObjectName("Form")
         Form.resize(231, 290)
         self.label = QtWidgets.QLabel(Form)
-        self.label.setGeometry(QtCore.QRect(60, 50, 121, 16))
+        self.label.setGeometry(QtCore.QRect(40, 50, 161, 16))
         font = QtGui.QFont()
-        font.setPointSize(9)
+        font.setPointSize(12)
         font.setBold(True)
         font.setWeight(75)
         self.label.setFont(font)
@@ -57,7 +57,6 @@ class Ui_Form(object):
         self.push_bmi.setObjectName("push_bmi")
         self.push_bmi.clicked.connect(self.bmi)
 
-
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
@@ -68,12 +67,12 @@ class Ui_Form(object):
         self.push_bmr.setText(_translate("Form", "Kalkulator BMR"))
         self.push_bmi.setText(_translate("Form", "Kalkulator BMI"))
 
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    FormMainWindow = QtWidgets.QMainWindow()
+    Form = QtWidgets.QWidget()
     ui = Ui_Form()
-    ui.setupUi(FormMainWindow)
-    FormMainWindow.show()
+    ui.setupUi(Form)
+    Form.show()
     sys.exit(app.exec_())
-
