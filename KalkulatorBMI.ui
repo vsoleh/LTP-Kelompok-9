@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>222</width>
-    <height>272</height>
+    <width>241</width>
+    <height>259</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>20</y>
-      <width>131</width>
+      <x>40</x>
+      <y>30</y>
+      <width>161</width>
       <height>16</height>
      </rect>
     </property>
@@ -37,8 +37,8 @@
    <widget class="QLineEdit" name="Txt_tb">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>60</y>
+      <x>140</x>
+      <y>77</y>
       <width>70</width>
       <height>20</height>
      </rect>
@@ -48,34 +48,34 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>60</y>
-      <width>91</width>
+      <y>77</y>
+      <width>111</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Tinggi Badan(cm)</string>
+     <string>Tinggi Badan (cm)</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>90</y>
-      <width>91</width>
+      <y>107</y>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Berat Badan(kg)</string>
+     <string>Berat Badan (kg)</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="Txt_bb">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>90</y>
-      <width>70</width>
+      <x>140</x>
+      <y>107</y>
+      <width>71</width>
       <height>20</height>
      </rect>
     </property>
@@ -83,8 +83,8 @@
    <widget class="QPushButton" name="pb_hitung">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>130</y>
+      <x>140</x>
+      <y>147</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -96,23 +96,23 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>170</y>
-      <width>61</width>
-      <height>51</height>
+      <x>20</x>
+      <y>180</y>
+      <width>71</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>BMI ANDA:</string>
+     <string>BMI Kamu :</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_hasil">
     <property name="geometry">
      <rect>
-      <x>76</x>
-      <y>173</y>
-      <width>131</width>
-      <height>21</height>
+      <x>90</x>
+      <y>180</y>
+      <width>61</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
@@ -122,26 +122,16 @@
    <widget class="QLabel" name="label_hasil2">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>205</y>
-      <width>121</width>
-      <height>31</height>
+      <x>20</x>
+      <y>210</y>
+      <width>191</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>222</width>
-     <height>21</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
