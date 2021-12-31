@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>249</width>
-    <height>373</height>
+    <width>279</width>
+    <height>341</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,60 +40,60 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>70</y>
       <width>101</width>
-      <height>41</height>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Umur&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>Umur</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>120</y>
+      <x>20</x>
+      <y>110</y>
       <width>111</width>
-      <height>31</height>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Kelamin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>Kelamin</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>160</y>
+      <x>20</x>
+      <y>150</y>
       <width>111</width>
-      <height>41</height>
+      <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Tinggi Badan(Cm)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>Tinggi Badan (cm)</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>210</y>
+      <x>20</x>
+      <y>190</y>
       <width>111</width>
-      <height>41</height>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Berat Badan(Kg)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>Berat Badan (kg)</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="Txt_umur">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>80</y>
+      <x>140</x>
+      <y>70</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -102,8 +102,8 @@
    <widget class="QComboBox" name="cmb_kelamin">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>120</y>
+      <x>140</x>
+      <y>110</y>
       <width>69</width>
       <height>22</height>
      </rect>
@@ -122,8 +122,8 @@
    <widget class="QLineEdit" name="Txt_tb">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>170</y>
+      <x>140</x>
+      <y>150</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -132,8 +132,8 @@
    <widget class="QLineEdit" name="Txt_bb">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>220</y>
+      <x>140</x>
+      <y>190</y>
       <width>113</width>
       <height>20</height>
      </rect>
@@ -142,8 +142,8 @@
    <widget class="QPushButton" name="PB_hitung">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>260</y>
+      <x>140</x>
+      <y>230</y>
       <width>75</width>
       <height>23</height>
      </rect>
@@ -155,11 +155,18 @@
    <widget class="QLabel" name="label_hasil">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>290</y>
-      <width>171</width>
-      <height>81</height>
+      <x>100</x>
+      <y>300</y>
+      <width>51</width>
+      <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string/>
@@ -168,14 +175,40 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>290</y>
-      <width>71</width>
-      <height>71</height>
+      <x>20</x>
+      <y>280</y>
+      <width>231</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>BMR  ANDA :</string>
+     <string>Kebutuhan Kalori Kamu minimal dalam</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sehari adalah </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>300</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>  Kal</string>
     </property>
    </widget>
   </widget>
